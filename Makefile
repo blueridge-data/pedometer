@@ -33,7 +33,7 @@ flash:
 	@echo "Uploading the sketch to Teensy 4.0 on port $(PORT)..."
 
 # use this command for custom build path:
-#@/Users/ryanwalsh/Library/Arduino15/packages/teensy/tools/teensy-tools/1.59.0/teensy_post_compile -file=pedometer.ino -path=$(BUILD_PATH) -tools=/Users/ryanwalsh/Library/Arduino15/packages/teensy/tools/teensy-tools/1.59.0 -board=TEENSY40 -reboot -port=$(PORT) -portlabel={serial.port.label} -portprotocol={serial.port.protocol}
+#@~/Library/Arduino15/packages/teensy/tools/teensy-tools/1.59.0/teensy_post_compile -file=pedometer.ino -path=$(BUILD_PATH) -tools=/Users/ryanwalsh/Library/Arduino15/packages/teensy/tools/teensy-tools/1.59.0 -board=TEENSY40 -reboot -port=$(PORT) -portlabel={serial.port.label} -portprotocol={serial.port.protocol}
 
 # otherwise, use custom build path:
 	@arduino-cli upload -p $(PORT) --fqbn teensy:avr:teensy40 $(PWD_DIR)
