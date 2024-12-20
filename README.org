@@ -1,0 +1,5 @@
+Simple pedometer sketch for the Teensy 4.0 to explore step counting algorithms.
+
+Leveraged existing Arduino libraries for accelerometer and eInk displays to concentrate exclusively on step counting.
+
+[[https://aosabook.org/en/500L/a-pedometer-in-the-real-world.html][Algorithm reference]]
